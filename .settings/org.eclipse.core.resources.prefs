@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/main/webapp/WEB-INF/views/editview.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/menu.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/phongban/add.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/phongban/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/phongban/list.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/saveview.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/view.jsp=UTF-8
