@@ -33,8 +33,8 @@
         <li><a href="${pageContext.request.contextPath}/chamcong/list">Cham Cong</a></li>
         <li><a href="${pageContext.request.contextPath}/luong/list">Luong</a></li>
         <li><a href="${pageContext.request.contextPath}/danhgia/list">danh Gia</a></li>
-        <li><a href="${pageContext.request.contextPath}/daotao">dao Tao</a></li>
-        <li><a href="${pageContext.request.contextPath}/ungvien">ung Vien</a></li>
+        <li><a href="${pageContext.request.contextPath}/daotao/list">dao Tao</a></li>
+        <li><a href="${pageContext.request.contextPath}/ungvien/list">ung Vien</a></li>
     </ul>
 </body>
 </html>

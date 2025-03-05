@@ -1,19 +1,19 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>Danh Sách Đánh Giá</title>
+    <title>Danh Sach danh Gia</title>
 </head>
 <body>
-    <h2>Danh Sách Đánh Giá</h2>
-    <a href="add">Thêm Đánh Giá</a>
+    <h2>Danh Sach danh Gia</h2>
+    <a href="add">Them Đanh Gia</a>
     <table border="1">
         <tr>
-            <th>Mã Đánh Giá</th>
-            <th>Mã Nhân Viên</th>
-            <th>Kỳ Đánh Giá</th>
-            <th>Điểm Số</th>
-            <th>Nhận Xét</th>
-            <th>Hành Động</th>
+            <th>Ma danh Gia</th>
+            <th>Ma Nhan Vien</th>
+            <th>Ky Đanh Gia</th>
+            <th>diem So</th>
+            <th>Nhan Xet</th>
+            <th>Hanh Đong</th>
         </tr>
         <c:forEach var="dg" items="${listDanhGia}">
             <tr>
@@ -23,8 +23,8 @@
                 <td>${dg.diemSo}</td>
                 <td>${dg.nhanXet}</td>
                 <td>
-                    <a href="edit/${dg.maDanhGia}">Sửa</a> |
-                    <a href="delete/${dg.maDanhGia}">Xóa</a>
+                    <a href="edit/${dg.maDanhGia}">Sua</a> |
+                    <a href="delete/${dg.maDanhGia}">Xoa</a>
                 </td>
             </tr>
         </c:forEach>

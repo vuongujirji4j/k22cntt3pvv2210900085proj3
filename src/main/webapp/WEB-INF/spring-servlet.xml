@@ -41,4 +41,10 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
 	<bean id="danhgiadao" class="com.springmvc.dao.DanhGiaDao">
 		<property name="template" ref="jt"></property>
 	</bean>
+	<bean id="daotaodao" class="com.springmvc.dao.DaoTaoDao">
+		<property name="template" ref="jt"></property>
+	</bean>
+	<bean id="ungviendao" class="com.springmvc.dao.UngVienDao">
+		<property name="template" ref="jt"></property>
+	</bean>
 </beans>
