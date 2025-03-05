@@ -1,5 +1,14 @@
 eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/views/chamcong/add.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/chamcong/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/chamcong/list.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/danhgia/add.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/danhgia/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/danhgia/list.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/editview.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/luong/add.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/luong/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/luong/list.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/menu.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/phongban/add.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/phongban/edit.jsp=UTF-8

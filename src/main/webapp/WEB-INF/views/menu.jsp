@@ -30,9 +30,9 @@
         <li><a href="${pageContext.request.contextPath}/">Trang Chu</a></li>
         <li><a href="${pageContext.request.contextPath}/nhanvien/view">Quan Ly Nhan Vien</a></li>
         <li><a href="${pageContext.request.contextPath}/phongban">Quan Ly Phong Ban</a></li>
-        <li><a href="${pageContext.request.contextPath}/chamcong">Cham Cong</a></li>
-        <li><a href="${pageContext.request.contextPath}/luong">Luong</a></li>
-        <li><a href="${pageContext.request.contextPath}/danhgia">danh Gia</a></li>
+        <li><a href="${pageContext.request.contextPath}/chamcong/list">Cham Cong</a></li>
+        <li><a href="${pageContext.request.contextPath}/luong/list">Luong</a></li>
+        <li><a href="${pageContext.request.contextPath}/danhgia/list">danh Gia</a></li>
         <li><a href="${pageContext.request.contextPath}/daotao">dao Tao</a></li>
         <li><a href="${pageContext.request.contextPath}/ungvien">ung Vien</a></li>
     </ul>
