@@ -26,25 +26,26 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
 		<property name="dataSource" ref="db"></property>
 	</bean>
 
-	<bean id="dao" class="com.springmvc.dao.NhanVienDao">
+	<bean id="dao" class="com.springmvc.dao.PvvNhanVienDao">
 		<property name="template" ref="jt"></property>
 	</bean>
-	<bean id="phongbandao" class="com.springmvc.dao.PhongBanDao">
+	<bean id="phongbandao" class="com.springmvc.dao.PvvPhongBanDao">
 		<property name="template" ref="jt"></property>
 	</bean>
-	<bean id="chamcongdao" class="com.springmvc.dao.ChamCongDao">
+	<bean id="chamcongdao" class="com.springmvc.dao.PvvChamCongDao">
 		<property name="template" ref="jt"></property>
 	</bean>
-	<bean id="luongdao" class="com.springmvc.dao.LuongDao">
+	<bean id="luongdao" class="com.springmvc.dao.PvvLuongDao">
 		<property name="template" ref="jt"></property>
 	</bean>
-	<bean id="danhgiadao" class="com.springmvc.dao.DanhGiaDao">
+	<bean id="danhgiadao" class="com.springmvc.dao.PvvDanhGiaDao">
 		<property name="template" ref="jt"></property>
 	</bean>
-	<bean id="daotaodao" class="com.springmvc.dao.DaoTaoDao">
+	<bean id="hopdongdao" class="com.springmvc.dao.PvvHopDongDao">
 		<property name="template" ref="jt"></property>
 	</bean>
-	<bean id="ungviendao" class="com.springmvc.dao.UngVienDao">
+	<bean id="donnghiphepdao" class="com.springmvc.dao.PvvDonNghiPhepDao">
 		<property name="template" ref="jt"></property>
 	</bean>
+	
 </beans>
