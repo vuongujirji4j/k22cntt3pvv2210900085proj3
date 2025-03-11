@@ -57,6 +57,14 @@
             width: 100%;
             left: 0;
         }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -69,8 +77,36 @@
             <li><a href="${pageContext.request.contextPath}/luong/list">Lương</a></li>
             <li><a href="${pageContext.request.contextPath}/danhgia/list">Đánh Giá</a></li>
             <li><a href="${pageContext.request.contextPath}/hopdong/list">Hợp đồng</a></li>
-             <li><a href="${pageContext.request.contextPath}/donnghiphep/list">đơn nghi phép</a></li>
+            <li><a href="${pageContext.request.contextPath}/donnghiphep/list">Đơn Nghỉ Phép</a></li>
         </ul>
     </nav>
+    <div class="container">
+        <h2>Giới thiệu về hệ thống quản lý nhân sự</h2>
+        <p>Trong bối cảnh kinh doanh hiện đại, việc quản lý nhân sự không chỉ dừng lại ở việc lưu trữ thông tin cá nhân. Nó bao gồm quản lý tuyển dụng, đào tạo, chấm công, lương thưởng, đánh giá hiệu suất và nhiều hơn thế nữa.</p>
+        <p>Một hệ thống quản lý nhân sự toàn diện sẽ giúp:</p>
+        <ul>
+            <li>Tự động hóa quy trình: Giảm thiểu công việc thủ công, tiết kiệm thời gian.</li>
+            <li>Đảm bảo tính chính xác: Hạn chế sai sót trong quản lý dữ liệu.</li>
+            <li>Cung cấp dữ liệu kịp thời: Hỗ trợ ra quyết định chiến lược dựa trên dữ liệu thực tế.</li>
+            <li>Nâng cao trải nghiệm nhân viên: Tạo môi trường làm việc chuyên nghiệp và minh bạch.</li>
+        </ul>
+        <h3>Chức năng chính</h3>
+        <ul>
+            <li>Quản lý hồ sơ nhân viên.</li>
+            <li>Quản lý tuyển dụng và ứng viên.</li>
+            <li>Chấm công và quản lý thời gian làm việc.</li>
+            <li>Quản lý lương thưởng.</li>
+            <li>Đánh giá hiệu suất nhân viên.</li>
+            <li>Đào tạo và phát triển nhân sự.</li>
+            <li>Báo cáo và phân tích dữ liệu nhân sự.</li>
+        </ul>
+        <h3>Đối tượng người dùng</h3>
+        <ul>
+            <li><b>Nhân viên:</b> Truy cập thông tin cá nhân, bảng lương, đơn nghỉ phép.</li>
+            <li><b>Quản lý:</b> Phê duyệt yêu cầu, đánh giá hiệu suất, quản lý nhóm.</li>
+            <li><b>Phòng nhân sự:</b> Quản lý tuyển dụng, đào tạo, lương thưởng.</li>
+            <li><b>Ban lãnh đạo:</b> Xem báo cáo tổng quan để đưa ra quyết định chiến lược.</li>
+        </ul>
+    </div>
 </body>
 </html>
