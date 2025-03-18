@@ -14,6 +14,7 @@
 
         <div class="d-flex justify-content-between align-items-center mb-3">
             <a href="add" class="btn btn-success">➕ Thêm Đơn Nghỉ Phép</a>
+              <a href="${pageContext.request.contextPath}/">Trang Chủ</a>
             <input type="text" id="searchInput" class="form-control w-25" placeholder="🔍 Tìm kiếm...">
         </div>
 

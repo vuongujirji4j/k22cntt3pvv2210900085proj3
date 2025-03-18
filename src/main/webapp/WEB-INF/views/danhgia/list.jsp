@@ -60,6 +60,7 @@
 <body>
     <h2>Danh Sách Đánh Giá</h2>
     <a href="add" class="add-button">Thêm Đánh Giá</a>
+      <a href="${pageContext.request.contextPath}/">Trang Chủ</a>
     <table>
         <tr>
             <th>Mã Đánh Giá</th>

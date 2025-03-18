@@ -98,6 +98,7 @@
             </c:forEach>
         </table>
         <a href="add" class="btn">+ Thêm Lương</a>
+          <a href="${pageContext.request.contextPath}/">Trang Chủ</a>
     </div>
 </body>
 </html>

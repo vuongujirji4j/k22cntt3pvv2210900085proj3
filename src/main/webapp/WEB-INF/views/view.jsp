@@ -82,5 +82,6 @@
         </c:forEach>
     </table>
     <a href="form" class="btn-add">Thêm Nhân Viên Mới</a>
+     <a href="${pageContext.request.contextPath}/">Trang Chủ</a>
 </body>
 </html>

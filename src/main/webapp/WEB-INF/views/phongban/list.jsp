@@ -94,6 +94,7 @@
                 </tr>
             </c:forEach>
         </table>
+          <a href="${pageContext.request.contextPath}/">Trang Chủ</a>
     </div>
 </body>
 </html>
